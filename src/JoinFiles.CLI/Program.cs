@@ -1,8 +1,5 @@
 ﻿using CommandLine;
 using JoinFiles.CLI.Classes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace JoinFiles.CLI
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace JoinFiles.CLI.Classes
+﻿namespace JoinFiles.CLI.Classes
 {
     internal class ConsoleWriter
     {
