@@ -27,9 +27,16 @@ Simple .NET CLI tool for joining files
 ```
 
 ## Package and Installation
-[Official Documentation][1]  
+Official Documentation: [Create a tool][2] and [Manage tools][1]  
 
-**Commands for Developer PowerShell:**  
+### Project file
+```
+<PackAsTool>true</PackAsTool>
+<ToolCommandName>join</ToolCommandName>
+<PackageOutputPath>./nupkg</PackageOutputPath>
+```
+
+### Commands for Developer PowerShell:  
 ```
 dotnet pack
 dotnet tool install --global --add-source ./nupkg joinfiles.cli
@@ -37,3 +44,4 @@ dotnet tool uninstall -g joinfiles.cli
 ```
 
 [1]: https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools 
+[2]: https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools-how-to-create 
